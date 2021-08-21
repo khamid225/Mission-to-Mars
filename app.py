@@ -6,8 +6,8 @@ import scrapping
 app = Flask(__name__)
 
 # Change user/password if needed
-dbuser = 'user1'
-passw = 'Hemi9090'
+dbuser = 'x'
+passw = 'x'
 
 mongo_server = "mongodb+srv://{}:{}@cluster0.9b2o3.mongodb.net/mars_app".format(dbuser, passw)
 app.config["MONGO_URI"] = mongo_server
