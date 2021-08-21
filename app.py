@@ -9,7 +9,7 @@ app = Flask(__name__)
 dbuser = 'x'
 passw = 'x'
 
-mongo_server = "mongodb+srv://{}:{}@cluster0.9b2o3.mongodb.net/mars_app".format(dbuser, passw)
+mongo_server = "mongodb+srv://{}:{}@XXXXXX.mongodb.net/mars_app".format(dbuser, passw)
 app.config["MONGO_URI"] = mongo_server
 mongo = PyMongo(app)
 
